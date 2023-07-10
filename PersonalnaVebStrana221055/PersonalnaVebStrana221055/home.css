@@ -1,0 +1,126 @@
+body{
+    margin: auto;
+    background: lightgrey;
+    width: 1000px;
+
+}
+.main{
+    text-align: center;
+    background: url("images/Bitmoji1.png") no-repeat;
+    /*border-right: white 10px double;*/
+    /*border-left: white 10px dotted;*/
+    height: 2000px;
+    margin-left: 15px;
+    margin-right: 15px;
+    padding-right: 20px;
+    padding-left: 20px;
+}
+.welcome {
+    height: 300px;
+}
+body > section > div.introduction > h1{
+    font-size: xxx-large;
+}
+#introduction{
+    margin-top: 100px;
+    height: 100px;
+}
+
+
+.text{
+    margin-top: -50px;
+}
+.main h1{
+    color: black;
+    font-family: Georgia;
+    text-align: center;
+    font-size: x-large;
+}
+.main p{
+    color: black;
+    font-family: Georgia;
+    font-size: xx-large;
+}
+body > section > div.text > p{
+    width: 500px;
+    margin: auto;
+
+}
+nav{
+    background-color: white;
+    border-radius: 20px;
+    height: 50px;
+}
+nav ul{
+    display: flex;
+    flex-direction: row;
+    margin-left: 100px;
+    padding-top: 10px;
+
+}
+nav ul li{
+    margin-right: 60px;
+    list-style: none;
+    background: black;
+    border-radius: 20px;
+    width: 150px;
+    text-align: center;
+}
+nav ul li a{
+    text-decoration: none;
+     color: whitesmoke;
+    font-family: Carlito;
+    font-size: x-large;
+    margin: 15px;
+}
+body > section > div.introduction > p:nth-child(2){
+    float: left;
+    width: 500px;
+    margin-top: 70px;
+}
+#introduction{
+    float: right;
+    margin-right: 400px;
+}
+nav ul li a:hover{
+    font-family: "Bookman Old Style";
+}
+body > section > div.introduction > p:nth-child(5){
+    margin-top: 150px;
+    width: 800px;
+    height: 300px;
+}
+footer ul{
+    display: flex;
+    flex-direction: row;
+    background: whitesmoke;
+    border-radius: 20px;
+    height: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+footer ul li{
+    list-style: none;
+    margin-left: 40px;
+}
+footer ul {
+    padding-left: 200px;
+}
+footer ul li img{
+    display: inline-block;
+}
+footer ul li p{
+    float: right;
+    padding-left: 10px;
+    margin-top: 0px;
+}
+/*body > footer > ul > li:nth-child(1) > a{*/
+/*    display: inline-block;*/
+/*    background: url("images/instagramLogo.png") no-repeat;*/
+/*    width: 512px;*/
+/*    height: 512px;*/
+/*}*/
+
+
+
+

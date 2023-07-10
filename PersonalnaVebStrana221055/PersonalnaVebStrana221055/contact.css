@@ -1,0 +1,84 @@
+body{
+    margin: auto;
+    background: lightgrey;
+    width: 1000px;
+
+}
+nav{
+    background-color: white;
+    border-radius: 20px;
+    height: 50px;
+}
+nav ul{
+    display: flex;
+    flex-direction: row;
+    margin-left: 100px;
+    padding-top: 10px;
+
+}
+nav ul li{
+    margin-right: 60px;
+    list-style: none;
+    background: black;
+    border-radius: 20px;
+    width: 150px;
+    text-align: center;
+}
+nav ul li a{
+    text-decoration: none;
+    color: whitesmoke;
+    font-family: Carlito;
+    font-size: x-large;
+    margin: 15px;
+}
+footer ul{
+    display: flex;
+    flex-direction: row;
+    background: whitesmoke;
+    border-radius: 20px;
+    height: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+footer ul li{
+    list-style: none;
+    margin-left: 40px;
+}
+footer ul {
+    padding-left: 200px;
+}
+footer ul li img{
+    display: inline-block;
+}
+footer ul li p{
+    float: right;
+    padding-left: 10px;
+    margin-top: 0px;
+}
+.phone{
+    margin-top: 150px;
+}
+.contact{
+    margin-top: 150px;
+    float: right;
+    background: white;
+    border-radius: 20px;
+    width: 350px;
+    height: 350px;
+}
+.contact p{
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 20px;
+    font-size: large;
+    text-align: center;
+    font-family: Georgia;
+    line-height: 35px;
+}
+#phone{
+    margin-left: 200px;
+    margin-top: 30px;
+}
+footer{
+    margin-top: 200px;
+}

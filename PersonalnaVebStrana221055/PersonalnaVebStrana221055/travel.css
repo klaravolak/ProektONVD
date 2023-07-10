@@ -1,0 +1,102 @@
+body{
+    margin: auto;
+    background: lightgrey;
+    width: 1000px;
+
+}
+nav{
+    background-color: white;
+    border-radius: 20px;
+    height: 50px;
+}
+nav ul{
+    display: flex;
+    flex-direction: row;
+    margin-left: 100px;
+    padding-top: 10px;
+
+}
+nav ul li{
+    margin-right: 60px;
+    list-style: none;
+    background: black;
+    border-radius: 20px;
+    width: 150px;
+    text-align: center;
+}
+nav ul li a{
+    text-decoration: none;
+    color: whitesmoke;
+    font-family: Carlito;
+    font-size: x-large;
+    margin: 15px;
+}
+footer ul{
+    display: flex;
+    flex-direction: row;
+    background: whitesmoke;
+    border-radius: 20px;
+    height: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+footer ul li{
+    list-style: none;
+    margin-left: 40px;
+}
+footer ul {
+    padding-left: 200px;
+}
+footer ul li img{
+    display: inline-block;
+}
+footer ul li p{
+    float: right;
+    padding-left: 10px;
+    margin-top: 0px;
+}
+.stolb{
+    margin-left: 60px;
+   background: url("images/stolb.png") repeat-x;
+    width: 900px;
+    height: 225px;
+}
+.first h1{
+    text-align: center;
+    font-family: Georgia;
+}
+.first p{
+    text-align: center;
+    font-family: Georgia;
+    margin-top: 40px;
+}
+body > section > div:nth-child(2) > p{
+    text-align: center;
+    font-family: Georgia;
+    font-size: x-large;
+
+}
+section{
+    height: 3000px;
+}
+.map {
+    margin-left: 200px;
+}
+.gmap{
+    margin-left: 200px;
+    margin-top: 100px;
+}
+.favourite{
+    text-align: center;
+
+    margin-top: 80px;
+}
+.favourite img{
+    display: inline-block;
+}
+.postfave{
+    margin-top: 100px;
+    float: right;
+    width: 400px;
+    font-family: Georgia;
+}
